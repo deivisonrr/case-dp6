@@ -1,0 +1,8 @@
+Neste case optei por utilizar o GTM porem tive que fazer alguns códigos para imputar informações no HTML que estavam faltando,
+por exemplo o formulário que mesmo sem nada imputado nele estava disparando o evento de submit, então alterei no html obrigando
+que os campos sejam todos preenchidos para que ele envie o evento, assim teremos mais acertividade de que o formulário realmente
+foi enviado.
+
+Fiz também um script de disparo do formulário. E também de atribuição de ID e NAME para o formulário.
+E também um código para saber quando o formulário começa a ser preenchido 
+E por ultimo um outro script para identificação dos botões na página analise

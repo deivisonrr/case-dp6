@@ -1,0 +1,1505 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2026-06-25 21:08:44",
+    "containerVersion": {
+        "path": "accounts/6362856961/containers/256574572/versions/0",
+        "accountId": "6362856961",
+        "containerId": "256574572",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6362856961/containers/256574572",
+            "accountId": "6362856961",
+            "containerId": "256574572",
+            "name": "www.casedp6.com",
+            "publicId": "GTM-5PVJGJKJ",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1782404566964",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6362856961/containers/256574572/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-5PVJGJKJ"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "6",
+                "name": "Tag GA",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "G-096NHNN8Q2"
+                    }
+                ],
+                "fingerprint": "1782405856820",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "7",
+                "name": "Page View",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_view"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782406286182",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "10",
+                "name": "Evento Entre em contato",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "entre_em_contato"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_group"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "menu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782419650875",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "12",
+                "name": "Evento Download PDF",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "download_pdf"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_group"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "menu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "file_download"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782419641223",
+                "firingTriggerId": [
+                    "11"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "13",
+                "name": "Vinculador de conversões",
+                "type": "gclidw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUrlPassthrough",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "acceptIncoming",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "linkerDomains",
+                        "value": "http://localhost:5000/case-martech-master/analise.html, http://localhost:5000/case-martech-master/index.html, http://localhost:5000/case-martech-master/sobre.html"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "formDecoration",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "urlPosition",
+                        "value": "query"
+                    }
+                ],
+                "fingerprint": "1782408560242",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "15",
+                "name": "Evento botões análise",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL element_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "element_group"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL element_group}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782420761105",
+                "firingTriggerId": [
+                    "44"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "19",
+                "name": "HTML DL botões pag analise",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\ndocument.querySelectorAll('.card-montadoras').forEach(function(card) {\n    card.addEventListener('click', function() {\n\n        window.dataLayer = window.dataLayer || [];\n\n        dataLayer.push({\n            event: 'click',\n            page_location: window.location.href,\n            element_name: this.dataset.id,\n            element_group: 'ver_mais'\n        });\n\n    });\n});\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1782411872634",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "25",
+                "name": "HTML Prrenchimento formulário",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script> \n  (function() {\n  function init() {\n    var forms = document.querySelectorAll('form');\n\n    if (!forms.length) return;\n\n    forms.forEach(function(form) {\n      var formStarted = false;\n\n      form.addEventListener('input', function(e) {\n        if (formStarted) return;\n\n        var field = e.target;\n\n        if (\n          field.matches('input[type=\"text\"], input[type=\"email\"], input[type=\"tel\"], textarea') &&\n          field.value &&\n          field.value.trim() !== ''\n        ) {\n          formStarted = true;\n\n          window.dataLayer = window.dataLayer || [];\n          window.dataLayer.push({\n            event: 'form_start',\n            page_location: window.location.href,\n            form_id: form.id || '',\n            form_name: form.getAttribute('name') || '',\n            form_destination: form.action || ''\n          });\n        }\n      });\n\n      form.addEventListener('change', function(e) {\n        if (formStarted) return;\n\n        var el = e.target;\n\n        if (el.type === 'checkbox' && el.checked) {\n          formStarted = true;\n\n          window.dataLayer = window.dataLayer || [];\n          window.dataLayer.push({\n            event: 'form_start',\n            page_location: window.location.href,\n            form_id: form.id || '',\n            form_name: form.getAttribute('name') || '',\n            form_destination: form.action || ''\n          });\n        }\n      });\n    });\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', init);\n  } else {\n    init();\n  }\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1782414431450",
+                "firingTriggerId": [
+                    "24"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "26",
+                "name": "form_submit",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n  (function() {\n\n  function init() {\n    var forms = document.querySelectorAll('form');\n\n    if (!forms.length) return;\n\n    forms.forEach(function(form) {\n\n      form.addEventListener('submit', function(e) {\n\n        var submitButton =\n          e.submitter ||\n          document.activeElement ||\n          form.querySelector('button[type=\"submit\"], input[type=\"submit\"]');\n\n        var submitText = '';\n\n        if (submitButton) {\n          submitText =\n            (submitButton.innerText || submitButton.value || '').trim();\n        }\n\n        window.dataLayer = window.dataLayer || [];\n        window.dataLayer.push({\n          event: 'form_submit',\n          page_location: window.location.href,\n          form_id: form.id || '',\n          form_name: form.getAttribute('name') || '',\n          form_destination: form.action || '',\n          form_submit_text: submitText\n        });\n\n      });\n\n    });\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', init);\n  } else {\n    init();\n  }\n\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1782417340201",
+                "firingTriggerId": [
+                    "24"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "31",
+                "name": "Evento preenchimento do form",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "page_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_id}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_destination"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_destination}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "form_start"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782419674083",
+                "firingTriggerId": [
+                    "27"
+                ],
+                "tagFiringOption": "ONCE_PER_LOAD",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "33",
+                "name": "Evento envio de form",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_id}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_destination"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DL form_destination}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "form_submit_text"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click Text}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "view_form_sucess"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA TAG}}"
+                    }
+                ],
+                "fingerprint": "1782421026483",
+                "firingTriggerId": [
+                    "32"
+                ],
+                "tagFiringOption": "ONCE_PER_LOAD",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "35",
+                "name": "Atribuição de ID e Nome para o form",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function() {\n\n  function init() {\n    var forms = document.querySelectorAll('form');\n\n    forms.forEach(function(form, index) {\n\n      // Só define se não existir (evita sobrescrever algo real)\n      if (!form.id) {\n        form.id = 'form_' + index;\n      }\n\n      if (!form.getAttribute('name')) {\n        form.setAttribute('name', 'form_contato_' + index);\n      }\n\n      // bônus (recomendado para tracking moderno)\n      form.setAttribute('data-gtm-form-index', index);\n      form.setAttribute('data-gtm-form', 'tracked');\n\n    });\n\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', init);\n  } else {\n    init();\n  }\n\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1782417045063",
+                "firingTriggerId": [
+                    "24"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "tagId": "38",
+                "name": "Minha TAG GA4",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "G-2WL2ZBRQHW"
+                    }
+                ],
+                "fingerprint": "1782419064058",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "9",
+                "name": "Clique Entre em contato",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "menu-lista-link menu-lista-contato"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "http://www.dp6.com.br/contato/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782407155958"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "11",
+                "name": "Clique download pdf",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "http://autos.dp6.com.br/autos_revista_vfinal.pdf"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1782407421007"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "14",
+                "name": "Clique botões analise",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card-montadoras"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782412295671"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "16",
+                "name": "HTML pag analise",
+                "type": "WINDOW_LOADED",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "analise"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782410208688"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "18",
+                "name": "Pagina analise",
+                "type": "WINDOW_LOADED",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "analise"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782411352043"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "23",
+                "name": "Evento click",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782412068626"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "24",
+                "name": "Pagina sobre",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "sobre"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782412832727"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "27",
+                "name": "form_start",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "form_start"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782413033502"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "32",
+                "name": "form_submit",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "form_submit"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782418251581"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "40",
+                "name": "Clique botão analise 2",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card-image"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782420292275"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "41",
+                "name": "Clique botão analise 3",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card-title"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782420359534"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "42",
+                "name": "Clique botões analise 4",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card-link"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782420466693"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "43",
+                "name": "Clique botões analise 5",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card-text"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782420643327"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "triggerId": "44",
+                "name": "Botões CARD Analise",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "click"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "card"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1782420750973"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "8",
+                "name": "GA TAG",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-096NHNN8Q2"
+                    }
+                ],
+                "fingerprint": "1782405950168",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "20",
+                "name": "DL page_location",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_location"
+                    }
+                ],
+                "fingerprint": "1782411966293",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "21",
+                "name": "DL element_name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "element_name"
+                    }
+                ],
+                "fingerprint": "1782412002128",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "22",
+                "name": "DL element_group",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "element_group"
+                    }
+                ],
+                "fingerprint": "1782412024184",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "28",
+                "name": "DL form_id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_id"
+                    }
+                ],
+                "fingerprint": "1782413796458",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "29",
+                "name": "DL form_name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_name"
+                    }
+                ],
+                "fingerprint": "1782413820380",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "30",
+                "name": "DL form_destination",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_destination"
+                    }
+                ],
+                "fingerprint": "1782413846541",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "34",
+                "name": "Submit Text",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "\n  \n function() {\n  try {\n    var btn = document.activeElement;\n\n    if (!btn) {\n      return '';\n    }\n\n    return (btn.innerText || btn.value || '').trim();\n  } catch(e) {\n    return '';\n  }\n}\n\n\n"
+                    }
+                ],
+                "fingerprint": "1782414370393",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "variableId": "39",
+                "name": "Minha TAG GA",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-2WL2ZBRQHW"
+                    }
+                ],
+                "fingerprint": "1782419145944",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "6362856961",
+                "containerId": "256574572",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            }
+        ],
+        "fingerprint": "1782421724535",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6362856961/containers/256574572/versions/0?apiLink=version"
+    }
+}
